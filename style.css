@@ -225,4 +225,24 @@
     font-size: 24px;
     font-weight: bold;
   }
+  .products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+  .product-about{
+    margin: 28px;
+  }
+  .p-img{
+    width: 170px;
+    height: 190px;
+
+  }
+  .p-btn{
+    width: 170px;
+    height: 50px;
+  }
+  .p-container{
+    text-align: center;
+  }
 }
